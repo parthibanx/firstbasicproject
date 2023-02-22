@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey.css">
+</head>
+
+<body class="body">
+  <div class="container">
+    <img class="bg" src="bg.avif" alt="">
+    <div class="head-body">
+      <h1 class="h1">freeCodeCamp.org</h1>
+      <p class="tagline">thank you for choosing us</p>
+      <div class="form">
+        <div>
+          <label for="name">Name</label>
+          <div><input class="name" type="text" placeholder="Enter your name"></div>
+        </div>
+        <div>
+          <label for="email">Email Id</label>
+        </div>
+        <div><input class="email" type="text" placeholder="Enter your email"></div>
+        <div>
+          <label for="age">Age(optional)</label>
+          <div><input class="age" type="number" placeholder="Age"></div>
+        </div>
+        <div>
+          <label for="role">Which option best describes your current role?</label>
+          <div>
+            <select class="select-role" name="Select role" id="dropdown">
+              <option disabled selected value="">Select your role</option>
+              <option value="student">full time job</option>
+              <option value="student">full time learner</option>
+              <option value="student">Prefer not to say</option>
+              <option value="student">Other</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <p>Would you recommend us to your friends?</p>
+          <div>
+            <label>
+              <input type="checkbox" value="Definitely" type="radio">Definitely
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" value="Definitely" type="radio">MayBe
+            </label>
+            < /div>
+              <div>
+                <label>
+                  <input type="checkbox" value="Definitely" type="radio">Nope
+                </label>
+              </div>
+          </div>
+          <div>
+            <label for="feature">What is your favourite feature of FCC?</label>
+            <div>
+              <select class="select-feature" name="feature" id="dropdown">
+                <option disabled selected value="Select the option">Select an option</option>
+                <option value="community">community</option>
+                <option value="Projects">Projects</option>
+                <option value="Open Source">Open Source</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <p>What would you like to see that should should be improved?</p>
+            <div class="checkboxes">
+              <label>
+                <input type="checkbox" name="" id="" type="radio">Front-end projects
+              </label>
+              <label>
+                <input type="checkbox" name="" id="" type="radio">Back-end projects
+              </label>
+              <label>
+                <input type="checkbox" name="" id="" type="radio">Data Visualization
+              </label>
+              <label>
+                <input type="checkbox" name="" id="" type="radio">Videos
+              </label>
+              <label>
+                <input type="checkbox" name="" id="" type="radio">Forums
+              </label>
+              <label><input type="checkbox" name="" id="" type="radio">Other
+              </label>
+            </div>
+          </div>
+          <div>
+            <p>Any Comments or suggestions?</p>
+            <div class="textbox">
+              <textarea class="text" placeholder="Enter your suggestions here..."></textarea>
+            </div>
+          </div>
+          <div><button class="button">Submit</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

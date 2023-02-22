@@ -1,0 +1,138 @@
+.body{
+    background-color: rgb(253, 253, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5;
+    height: 1500px;
+    
+}
+
+.container{
+position: relative;
+justify-content: center;
+align-items: center;
+}
+
+.head-body{
+
+justify-content: center;
+align-items: center;
+
+}
+.form{
+    
+    align-items: center;
+    background-color: #28284d;
+    padding-left: 20px;
+    opacity: 0.9;
+    position: absolute;
+    transform: translate(50%, -130%);
+    filter: brightness(120%);
+    padding: 20px;
+    z-index: 2;
+    border: solid;
+    border-color:#28284d ;
+    border-radius: 30px;
+
+    
+}
+.h1{
+   
+    align-items: center;
+    position: absolute;
+    transform: translate(50%, -2350%);
+    color: rgb(121, 8, 8);
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 500px;
+   
+
+}
+.tagline{
+margin-top: 10px;
+
+}
+.bg{
+object-fit: cover;
+width: 1600px;
+height: 1800px;
+filter: blur(3px);
+
+}
+.text{
+padding-top: 0;
+width: 300px;
+height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+border-style: solid;
+border-width: 1px;
+border-radius: 50px;
+width: 300px;
+height: 50px;
+background-color: rgb(25, 232, 25);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 250px;
+margin-top: 50px;
+border-color: rgb(35, 233, 35);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 21px;
+transition: 0.15s;
+box-shadow: 2px 2px 2px rgb(157, 154, 154);
+
+}
+.button:hover{
+cursor: pointer;
+opacity: 0.9;
+}
+.button:active{
+opacity: 0.5;
+
+}
+
+.select-role:hover{
+opacity: 0.9;
+
+}
+.select-feature:hover{
+opacity: 0.9;
+
+}
+.name{
+width: 750px;
+height: 35px;
+border-radius: 10px;
+padding-left: 10px;
+font-size: 14px;
+
+}
+.age{
+width: 750px;
+height: 35px;
+padding-left: 10px;
+border-radius: 10px;
+font-size: 13px;
+}
+.email{
+width: 750px;
+height: 35px;
+padding-left: 10px;
+border-radius: 10px;
+font-size: 14px;
+
+}
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+
+}
